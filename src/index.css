@@ -21,7 +21,14 @@ header{
   align-items: center;
 }
 header nav a{
-  /* display: flex; */
+  justify-content: space-between;
+  color: #000;
+  text-decoration: none;
+  margin: 0 0 0 10px;
+}
+
+/* footer */
+footer nav a {
   justify-content: space-between;
   color: #000;
   text-decoration: none;
