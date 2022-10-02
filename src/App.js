@@ -1,4 +1,4 @@
-import Header from "./myStore/Header";
+import Header from "./myEcom/Header";
 
 function App() {
   return <Header />;
