@@ -1,6 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 
 function FeatureContent() {
+  
   return (
     <Carousel controls={false} indicators={false} style={{
         maxWidth: "100vw"
