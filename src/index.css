@@ -13,13 +13,6 @@ code {
 }
 
 /* header */
-header{
-  display: flex;
-  justify-content: space-between;
-  background: grey;
-  height: 80px;
-  align-items: center;
-}
 header nav a{
   justify-content: space-between;
   color: #000;
