@@ -11,14 +11,14 @@ const Item = [
   {
     id: 2,
     src: "https://images.unsplash.com/photo-1577909698488-3c3705c9c265?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80",
-    alt: "First slide",
+    alt: "Second slide",
     captionTitle: "Vision To A New Fashion",
     caption: "Explore Great Clothing",
   },
   {
     id: 3,
     src: "https://images.unsplash.com/photo-1598962884139-f84fedded2d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2073&q=80",
-    alt: "First slide",
+    alt: "Third slide",
     captionTitle: "Relax As The Sunsets",
     caption: "Feel Comfortable Everywhere You Go",
   },
@@ -35,11 +35,7 @@ function FeatureContent() {
     >
       {Item.map((Item, index) => (
         <Carousel.Item interval={2500}>
-          <img
-            className="d-block w-100"
-            src={Item.src}
-            alt={Item.alt}
-          />
+          <img className="d-block w-100" src={Item.src} alt={Item.alt} />
           <Carousel.Caption>
             <h3>{Item.captionTitle}</h3>
             <p>{Item.caption}</p>
